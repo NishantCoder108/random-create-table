@@ -1,0 +1,27 @@
+.randomTable{
+    background-color: azure;
+    /* padding: 30px; */
+    text-align: justify;
+    font-weight: bold;
+}
+td{
+    padding: 15px;
+    border: 1px solid grey;
+}
+
+/* Given Data by User  */
+.user{
+  background-color: aqua;
+  padding: 18px;
+  flex-flow: 1;
+  margin: auto;
+}
+
+body{
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+    align-content: center;
+    gap: 12px;
+    justify-content: center;
+}

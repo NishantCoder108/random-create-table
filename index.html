@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Random Table</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div class="user">
+      <label for="cols1">No of Cols:</label>
+      <input
+        type="number"
+        name=""
+        id="cols1"
+        placeholder="No of Rows"
+      /><br /><br />
+      <label for="rows">No of Rows:</label>
+      <input type="number" name="" id="rows1" placeholder="No of Cols" /><br />
+      <br />
+      <br />
+      <button>Create Your Random Table</button>
+    </div>
+    <div class="randomTable">
+      <h1>Create Random Table</h1>
+      <table>
+        <tbody id="tbody"></tbody>
+      </table>
+    </div>
+
+    <!-- Maximum Random Number  of this table-->
+    <hr />
+    <div id="maxNum"></div>
+
+    <hr />
+
+    <!-- The sum of Column Elements -->
+    <div id="col-sum"></div>
+
+    <hr />
+    <!-- Sorting of Random Number -->
+    <div class="randomTable">
+      <h1>Sorting Random Table</h1>
+      <table>
+        <tbody id="shortbody"></tbody>
+      </table>
+    </div>
+  </body>
+</html>
